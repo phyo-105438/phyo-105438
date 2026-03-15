@@ -4,11 +4,13 @@
 data class Profile(
     val name: String = "Myo Win", // Full name
     val nickname: String = "Phyo Hein", // Nickname
+    val role: String = "Mobile Developer", // Role
     val location: String = "Bangkok", // Location
     val pronouns: String = "he/him", // Pronouns
-    val code: List<String> = listOf("Java", "Kotlin", "Dart", "Swift"), // Programming languages
-    val tools: List<String> = listOf("Android SDK", "Jetpack Compose", "Postman", "IntelliJ IDEA", "Android Studio"), // Tools
-    val currentlyLearning: List<String> = listOf("Jetpack Compose", "Android Architecture Components", "Flutter") // Learning topics
+
+    val code: List<String> = listOf("JavaScript", "Java", "Kotlin", "Dart", "Swift"), // Programming languages
+    val frameworks: List<String> = listOf("Legacy Native Android (XML)", "Jetpack Compose", "Flutter"), // Frameworks
+    val tools: List<String> = listOf("Android SDK", "Android Studio", "Jetpack Compose", "Postman", "IntelliJ IDEA") // Tools
 )
 ```
 <!--## Achievements-->
@@ -37,6 +39,11 @@ data class Profile(
 |------|-----|--------|-----------|-----------|
 | <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML" alt="HTML" width="55" height="55"/> | <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg" title="CSS" alt="CSS" width="55" height="55"/> | <img src="https://github.com/devicons/devicon/blob/master/icons/jquery/jquery-original.svg" title="jQuery" alt="jQuery" width="55" height="55"/> | <img src="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-original.svg" title="Bootstrap" alt="Bootstrap" width="55" height="55"/> | <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="55" height="55"/> |
 
+### Backend Technologies  
+| JavaScript | NodeJS | MongoDB |  
+|--------------------|---------------|----------------|  
+|<div align="center"><img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="55" height="55"/></div> | <div align="center"><img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original.svg" title="Node.js" alt="Node.js" width="55" height="55"/></div>| <div align="center"><img src="https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-original.svg" title="Mongo DB" alt="Mongo DB" width="55" height="55"/></div> |
+
 ### Android Technologies  
 | Android SDK | Java | Kotlin | Jetpack Compose |  
 |-------------|------|--------|-----------------|  
@@ -50,7 +57,7 @@ data class Profile(
 ### Integrated Development Environments (IDEs)  
 | Visual Studio Code | IntelliJ IDEA | Android Studio |  
 |--------------------|---------------|----------------|  
-|<div align="center"><img src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg" title="Visual Studio Code" alt="Visual Studio Code" width="55" height="55"/></div> | <div align="center"><img src="https://github.com/devicons/devicon/blob/master/icons/intellij/intellij-original.svg" title="IntelliJ IDEA" alt="IntelliJ IDEA" width="55" height="55"/></div>| <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Android_Studio_icon_%282023%29.svg/480px-Android_Studio_icon_%282023%29.svg.png" title="Android Studio" alt="Android Studio" width="55" height="55"/></div> |
+|<div align="center"><img src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg" title="Visual Studio Code" alt="Visual Studio Code" width="55" height="55"/></div> | <div align="center"><img src="https://github.com/devicons/devicon/blob/master/icons/intellij/intellij-original.svg" title="IntelliJ IDEA" alt="IntelliJ IDEA" width="55" height="55"/></div>| <div align="center"><img src="https://ss1.hevs.io/sw/img/android-studio-icon.png" title="Android Studio" alt="Android Studio" width="55" height="55"/></div> |
 
 
 ### Version Control System
